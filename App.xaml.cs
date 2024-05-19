@@ -1,4 +1,6 @@
-﻿namespace maui_collection_view
+﻿using maui_collection_view.MVVM.Views;
+
+namespace maui_collection_view
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new DataView();
         }
     }
 }
